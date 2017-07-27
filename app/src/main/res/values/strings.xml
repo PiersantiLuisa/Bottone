@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bottone</string>
+    <string name="button_train">Is training...</string>
+    <string name="button_train_stop">Train Start</string>
+    <string name="button_recognize_start">Recognize</string>
+    <string name="button_recognize_stop">Is Recognizing</string>
+</resources>

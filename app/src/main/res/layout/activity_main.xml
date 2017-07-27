@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.piers.bottone.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/recognize_id"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_centerHorizontal="false"
+        android:layout_centerInParent="false"
+        android:layout_centerVertical="false">
+
+        <Button
+            android:id="@+id/save_id"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_marginLeft="35dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="29dp"
+            android:background="@drawable/save_button"
+            android:elevation="24dp"
+            android:rotation="-45"
+            android:text="Save Gesture"
+            android:textStyle="bold"
+            android:translationY="0dp"
+            tools:translationX="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/button_id"
+            style="@style/button_text"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+
+            android:background="@drawable/train_button"
+            android:elegantTextHeight="false"
+            android:elevation="24dp"
+            android:layoutDirection="locale"
+            android:text="Train Start"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/recognize_id"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+
+        android:background="@drawable/recognize_button"
+        android:elevation="24dp"
+        android:text="Recognize"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="31dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp" />
+
+</RelativeLayout>
+
